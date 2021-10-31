@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+header {
+  height: 50px;
+  background-color: lightpink;
+}
+#contents {
+  flex: 1;
+  padding: 30px;
+  overflow: scroll;
+}
+footer {
+  height: 50px;
+  background-color: antiquewhite;
+}
